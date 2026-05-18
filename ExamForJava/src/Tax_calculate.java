@@ -140,17 +140,17 @@ public class Tax_calculate {
 
 
 //      #반복문
-        Scanner sc = new Scanner(System.in);
-        System.out.print("개수 n 입력: ");
-        int n = sc.nextInt();
-        int min = 0; //최솟값
-        int max = 0; //최대값
-        for (int i = 1; i<=n; i++) {
-            int num = sc.nextInt();
-            if(num > max) max = num;
-            if(num < min) min = num;
-        }
-        System.out.println("최대값: " + max + " 최솟값: " + min);
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("개수 n 입력: ");
+//        int n = sc.nextInt();
+//        int min = n; //최솟값
+//        int max = 0; //최대값
+//        for (int i = 1; i<=n; i++) {
+//            int num = sc.nextInt();
+//            if(num > max) max = num;
+//            if(num < min) min = num;
+//        }
+//        System.out.println("최대값: " + max + " 최솟값: " + min);
 
 
 
