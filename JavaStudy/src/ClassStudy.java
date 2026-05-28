@@ -89,16 +89,16 @@ public class ClassStudy {
 //        boolean b1 = account.withdraw(6000); //true 1만원 -> 6000원 빼면 4000원 남음.
 //        boolean b2 = account.withdraw(5000); //false 아까 4000원 남았는데 5000원을 뺄수 없기에 flase.
 
-        BankAccount acc1 = new BankAccount();
-        acc1.owner = "홍길동";
-        acc1.balance = 10000;
-
-        BankAccount acc2 = new BankAccount();
-        acc2.owner = "김철수";
-        acc2.balance = 50000;
-
-        System.out.println(acc1.getSummary());
-        System.out.println(acc2.getSummary());
+//        SolveBankAccount acc1 = new SolveBankAccount();
+//        acc1.owner = "홍길동";
+//        acc1.balance = 10000;
+//
+//        SolveBankAccount acc2 = new SolveBankAccount();
+//        acc2.owner = "김철수";
+//        acc2.balance = 50000;
+//
+//        System.out.println(acc1.getSummary());
+//        System.out.println(acc2.getSummary());
 
 
 //        Car car1 = new Car(); //new 키워드 사용하여 객체 생성 (여기서부터 행동)
