@@ -11,14 +11,17 @@ class CarwithGetterSetter {
 
     //  brand
     String getBrand() {
+
         return brand;
     }
     //  model
     String getModel() {
+
         return model;
     }
     //    year
     int getYear() {
+
         return year;
     }
 
@@ -28,10 +31,12 @@ class CarwithGetterSetter {
     }
     //    세터 setModel
     void setModel(String c) {
+
         model = c;
     }
     //    세터 setModel
     void setYear(int d) {
+
         year = d;
     }
 
