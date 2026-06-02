@@ -138,21 +138,21 @@ class te3st {
 
 //                6번 문제 - 369게임
 
-//                  Scanner sc = new Scanner(System.in);
-//                  System.out.print("지금 부터 369게임을 해볼까요?");
-//                  int N = sc.nextInt();
+                  Scanner sc = new Scanner(System.in);
+                  System.out.print("지금 부터 369게임을 해볼까요?");
+                  int N = sc.nextInt();
+
 //
-//
-//                  for (int i = 1; i<=N; i++) {
-//                        int n = i % 10;
-//                      if (n == 3 || n == 6 || n == 9) {
-//                          System.out.print("👏 ");
-//                      }
-//                      else  {
-//                          System.out.print(i + " ");
-//                      }
-//                      sc.close();
-//                  }
+                  for (int i = 1; i<=N; i++) {
+                        int n = i % 10;
+                      if (n == 3 || n == 6 || n == 9) {
+                          System.out.print("👏 ");
+                      }
+                      else  {
+                          System.out.print(i + " ");
+                      }
+                      sc.close();
+                  }
 
 //                  나이 문제
 //                    Scanner sc = new Scanner(System.in);
@@ -212,29 +212,29 @@ class te3st {
 //                      }
 //                      System.out.println(isPrime ? "소수입니다." : "소수가 아닙니다.");
 
-
-//                      15번 문제: 콜라츠 추측
-                        Scanner sc = new Scanner(System.in);
-                        System.out.print("양수 N을 입력하세요: ");
-                        int N = sc.nextInt();
-                        int count = 0;
-
-
-                        while (true) {
-                            System.out.print(N + " ");
-                            // 1이면, 종료
-                            if(N == 1) break;
-
-                            if (N%2 == 0) {
-                                 N = N / 2;
-                             }
-
-                             else {
-                                N = N * 3 + 1;
-                            }
-                            count++;
-                        }
-                        System.out.print("\n" + count + "번 만에" + "1에 도달 하였습니다.");
+//
+////                      15번 문제: 콜라츠 추측
+//                        Scanner sc = new Scanner(System.in);
+//                        System.out.print("양수 N을 입력하세요: ");
+//                        int N = sc.nextInt();
+//                        int count = 0;
+//
+//
+//                        while (true) {
+//                            System.out.print(N + " ");
+//                            // 1이면, 종료
+//                            if(N == 1) break;
+//
+//                            if (N%2 == 0) {
+//                                 N = N / 2;
+//                             }
+//
+//                             else {
+//                                N = N * 3 + 1;
+//                            }
+//                            count++;
+//                        }
+//                        System.out.print("\n" + count + "번 만에" + "1에 도달 하였습니다.");
 
 
     }

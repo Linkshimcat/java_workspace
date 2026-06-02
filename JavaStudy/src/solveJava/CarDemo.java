@@ -1,3 +1,5 @@
+package solveJava;
+
 class MyCar {
     String color;
     String speed;

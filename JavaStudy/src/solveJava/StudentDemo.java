@@ -1,3 +1,5 @@
+package solveJava;
+
 class MyStudent {
     int age;
     String name;
