@@ -144,7 +144,7 @@ class te3st {
 
 //
                   for (int i = 1; i<=N; i++) {
-                        int n = i % 10;
+                      int n = i % 10;
                       if (n == 3 || n == 6 || n == 9) {
                           System.out.print("👏 ");
                       }

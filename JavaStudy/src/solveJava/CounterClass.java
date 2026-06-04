@@ -33,7 +33,7 @@ class Counter {
 public class CounterClass {
     public static void main(String[] args) {
         Counter a = new Counter();
-        a.increment();
+        a.increment(); //increment함수 호출
         a.increment();
         a.increment();
         a.increment();
