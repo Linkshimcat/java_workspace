@@ -1,3 +1,5 @@
+package solveJava;
+
 import java.util.Scanner;
 //public class Plusecount {
 

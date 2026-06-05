@@ -1,3 +1,5 @@
+package solveJava;
+
 import java.util.Scanner;
 public class CoteChar {
     public static void main(String[] args) {

@@ -1,4 +1,5 @@
-import java.util.Scanner; //스캐너 모둘 갖고옴
+package Gammer;
+
 public class ArrayDemo {
     public static void main(String[] args) {
         // # Array 배열

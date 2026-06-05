@@ -1,3 +1,5 @@
+package Gammer;
+
 public class B2b {
     public static void main(String[] args) {
         int octal = 032; //8 진수

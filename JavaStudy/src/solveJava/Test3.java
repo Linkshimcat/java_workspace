@@ -1,3 +1,5 @@
+package solveJava;
+
 class MyRectangle {
     int width;
     int height;

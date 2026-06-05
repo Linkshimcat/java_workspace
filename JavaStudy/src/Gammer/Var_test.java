@@ -1,3 +1,5 @@
+package Gammer;
+
 public class Var_test {
     public static void main(String[] args) {
 //      강제 형 변환

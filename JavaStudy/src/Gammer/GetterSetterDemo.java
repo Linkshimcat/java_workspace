@@ -1,3 +1,5 @@
+package Gammer;
+
 class CarwithGetterSetter {
 //    필드 3개
     String brand;

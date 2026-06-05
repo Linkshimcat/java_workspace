@@ -1,3 +1,5 @@
+package Gammer;
+
 public class Opertudy {
     public static void main(String[] args) {
         int a = 10;

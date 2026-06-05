@@ -1,3 +1,5 @@
+package solveJava;
+
 import java.util.Scanner; //Scanner 모듈 불러오기
 
 public class Constant_1211 {

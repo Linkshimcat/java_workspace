@@ -1,3 +1,5 @@
+package solveJava;
+
 public class Foryou {
     public static void main(String[] args) {
 

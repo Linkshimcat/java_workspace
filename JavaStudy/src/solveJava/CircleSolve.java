@@ -1,3 +1,5 @@
+package solveJava;
+
 class MyCircle {
     double radius; //필드 radius
 

@@ -1,3 +1,5 @@
+package Gammer;
+
 import java.util.Scanner;
 public class ControlStudy {
     public static void main(String[] args) {
