@@ -1,4 +1,4 @@
-package Gammer;
+package Grammer;
 
 public class Var_test {
     public static void main(String[] args) {

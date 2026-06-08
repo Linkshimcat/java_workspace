@@ -1,4 +1,4 @@
-package Gammer;
+package Grammer;
 
 public class OperatorStudy {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Gammer;
+package Grammer;
 
 public class Ec1 {
     public static void main(String[] args) {

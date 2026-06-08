@@ -1,4 +1,4 @@
-package Gammer;
+package Grammer;
 
 class CarwithGetterSetter {
 //    필드 3개

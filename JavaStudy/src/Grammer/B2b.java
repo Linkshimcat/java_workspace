@@ -1,4 +1,4 @@
-package Gammer;
+package Grammer;
 
 public class B2b {
     public static void main(String[] args) {

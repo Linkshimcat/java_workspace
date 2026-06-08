@@ -1,4 +1,4 @@
-package Gammer;
+package Grammer;
 
 import java.util.Scanner; //자바 Scanner 모듈 불러오기
 

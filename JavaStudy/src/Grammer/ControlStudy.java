@@ -1,4 +1,4 @@
-package Gammer;
+package Grammer;
 
 import java.util.Scanner;
 public class ControlStudy {

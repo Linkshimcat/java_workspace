@@ -1,4 +1,4 @@
-package Gammer;
+package Grammer;
 
 public class Opertudy {
     public static void main(String[] args) {
