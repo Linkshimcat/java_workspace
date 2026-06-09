@@ -1,4 +1,5 @@
 package Grammer;
+import java.util.Scanner;
 
 public class ArrayDemo {
     public static void main(String[] args) {
@@ -16,7 +17,7 @@ public class ArrayDemo {
 //        nums3 = new int[] {10, 20, 30};
 
 //        int[] arr = {10, 20, 30, 40, 50};
-//        System.out.println(arr[0]);
+//        System.out.println(arr[1]);
 //        arr[0] = 100;
 //        arr[4] = 500;
 //        System.out.println(arr[arr.length -1]); // 마지막 {50}부분 인덱스 값 500 출력
@@ -227,5 +228,33 @@ public class ArrayDemo {
 //
 //
 //    }
+
+
+        /*int[] a = new int[]{1, 2, 3 , 3};
+        a[0] = 100;
+        System.out.println(a[0]);
+        System.out.println(a[a.length - 1]);*/
+
+/*        int[] a = new int[]{10, 20, 30, 40, 50};
+        a[0] = 1000;
+        for(int i = 0; i < a.length; i++) {
+            System.out.println("a의 원소 값:" + a[i]);
+        }
+
+        int[] b = {10, 20};
+        System.out.println(b.length);
+
+        String[] agr = new String[2];
+        System.out.println(agr);
+
+        b = a;
+        System.out.println(a.length);*/
+
+        int[] a = {10 , 20, 30, 40};
+
+        for(int i = 0; i<a.length; i++) {
+            System.out.println(a[i]);
+        }
+
     }
 }
