@@ -9,7 +9,7 @@ public class ArrayDemo {
 //        int[] arr3 = new int[3]; //배열 생성하여 대입
 //        // System.out.println(arr3[0]);
 //        System.out.println(arr3.length);
-//        System.out.println(arr3[arr3.length - 1]);
+//        System.out.println(arr3[length]);
 //
 //        int[] nums1 = {10, 20, 30};
 //        int[] nums2 = new int[] {10, 20, 30};
@@ -230,12 +230,12 @@ public class ArrayDemo {
 //    }
 
 
-        /*int[] a = new int[]{1, 2, 3 , 3};
+/*        int[] a = new int[]{1, 2, 3 , 3};
         a[0] = 100;
         System.out.println(a[0]);
         System.out.println(a[a.length - 1]);*/
 
-/*        int[] a = new int[]{10, 20, 30, 40, 50};
+/*      int[] a = new int[]{10, 20, 30, 40, 50};
         a[0] = 1000;
         for(int i = 0; i < a.length; i++) {
             System.out.println("a의 원소 값:" + a[i]);
@@ -250,11 +250,15 @@ public class ArrayDemo {
         b = a;
         System.out.println(a.length);*/
 
-        int[] a = {10 , 20, 30, 40};
+        /*int[] a = {10 , 20, 30, 40};
+        for(int i : a) {
+            System.out.println(i);
+        }*/
 
-        for(int i = 0; i<a.length; i++) {
-            System.out.println(a[i]);
-        }
+//        #
+
+
+
 
     }
 }

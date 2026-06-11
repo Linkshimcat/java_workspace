@@ -1,4 +1,5 @@
 package solveJava;
+import java.util.Arrays;
 import java.util.Scanner;
 
 
@@ -57,6 +58,8 @@ public class ArraySolve {
             System.out.print((i + 1) + "번째 정수: ");
             arry[i] = sc.nextInt();
         }
+
+
 
 //        똑같은 크기의 새 배열 만들기
         int[] copy = new int[N];
@@ -197,6 +200,155 @@ public class ArraySolve {
         }
         System.out.println("전체 재고 : " + goods);*/
 
+
+//        #12번 문제
+/*        System.out.print("N 입력: ");
+        int N = sc.nextInt();
+        int[] arry = new int[N];
+
+        for (int i = 0; i < N; i++) {
+            System.out.print((i + 1) + "번째 정수 : ");
+            arry[i] = sc.nextInt();
+        }
+
+        int[] result = new int[N];
+        int count = 0;
+        for (int i = 0; i < N; i++) {
+            boolean founDuplication = false;
+            for (int j = 0; j < count; j++) {
+                if (arry[i] == result[j]) {
+                    founDuplication = true;
+                    break;
+                }
+            }
+            if (!founDuplication) {
+                result[count++] = arry[i];
+            }
+        }
+        System.out.println("결과 : ");
+        for (int i = 0; i < count; i++) {
+            System.out.println(result[i] + " ");
+        }
+        System.out.println();
+        sc.close();*/
+
+//        #13번 문제
+ /*       System.out.print("N 입력: ");
+        int N = sc.nextInt();
+        int[] arry = new int[N];
+
+        for (int i = 0; i < N; i++) {
+            System.out.print((i + 1) + "번째 정수 : ");
+            arry[i] = sc.nextInt();
+        }
+
+        int i = 0;
+        int j = N - 1;
+        boolean isSymmetric = true;
+        for ( ; j > i ; i++, j--) {
+            if(arry[i] != arry[j]) {
+                isSymmetric = false;
+                break;
+            }
+        }
+
+        System.out.println((isSymmetric) ? "대칭 배열입니다" : "대칭 배열이 아닙니다.");
+*/
+
+
+//        #14번 문제 -  학생 성적 합격 여부
+  /*      System.out.print("학생 수 : ");
+        int Stoal = sc.nextInt();
+        int[][] arry = new int[Stoal][]; // 2차원 배열
+
+        for (int i = 0; i < Stoal; i++) {
+            System.out.print((i + 1) + "번 학생 (국어 영어 수학) : ");
+            arry[i] = new int[3];
+//            반복문 돌면서 0, 1, 2번에 (국,영,수) 점수 넣기
+            String[] subject = new String[]{"국어", "수학", "영어"};
+            for (int j = 0; j < 3; j++) {
+                System.out.print(subject[j] + "과목 점수 입력:");
+                int score = sc.nextInt();
+                arry[i][j] = score;
+            }
+        }
+//        System.out.println(Arrays.deepToString(arry)); // 배열 데이터 확인하기
+        for (int i = 0; i < Stoal; i++) {
+            int sum = 0;
+            for (int j = 0; j < 3; j++) {
+                sum += arry[i][j];
+            }
+            double avg = (double) sum / 3;
+            System.out.println((i + 1) + "번 학생: 평균 " + avg + " 점 -> "
+            + ((avg > 60) ? "합격" : "불합격"));
+        }*/
+
+
+//        #15번 문제 - 2차원 배열 합계
+/*        int[][] arry = new int[3][3];
+        for (int i = 0; i < arry.length; i++) {
+            for (int j = 0; j < arry.length; j++) {
+                System.out.print((i + 1) + "행 " + (j + 1) + "열 : ");
+                arry[i][j] = sc.nextInt();
+            }
+        }
+
+        int sum = 0; // 배열 합계 변수
+        for (int i = 0; i < arry.length; i++) {
+            for (int j = 0; j < arry.length; j++) {
+                sum += arry[i][j];
+            }
+        }
+        System.out.println("전체 합계: " + sum);*/
+
+
+//        #16번 2차원 배열 행별 합계
+
+        /*       System.out.print("행(N) : ");
+        int N = sc.nextInt();
+        System.out.print("행(M) : ");
+        int M = sc.nextInt();
+
+        int[][] arry = new int[N][M];
+
+        for (int i = 0; i < arry.length; i++) {
+            for (int j = 0; j < arry.length; j++) {
+                System.out.print((i + 1) + "행 " + (j + 1) + "열 :");
+                arry[i][j] = sc.nextInt();
+            }
+        }
+
+        for (int i = 0; i < arry.length; i++) {
+            int sum = 0;
+            for (int j = 0; j < arry.length; j++) {
+                sum += arry[i][j];
+            }
+            System.out.println((i + 1) + "행 합계: " + sum);
+        }*/
+
+
+//        #17번 문제 - 2차원 배열 열별 합계
+        System.out.print("행 (N) : ");
+        int N = sc.nextInt();
+        System.out.print("열 (M) : ");
+        int M = sc.nextInt();
+
+        int[][] arry = new int[N][M];
+
+        for (int i = 0; i < arry.length; i++) {
+            for (int j = 0; j < arry.length; j++) {
+                System.out.print((i + 1) + "행" + (j + 1) + "열: ");
+                arry[i][j] = sc.nextInt();
+            }
+        }
+
+        for (int j = 0; j < arry.length; j++) {
+            int sum = 0;
+            for (int i = 0; i < arry.length; i++) {
+                sum += arry[i][j];
+            }
+            System.out.println((j + 1) + "열 합계: " + sum);
+        }
 
     }
 }
