@@ -328,7 +328,7 @@ public class ArraySolve {
 
 
 //        #17번 문제 - 2차원 배열 열별 합계
-        System.out.print("행 (N) : ");
+/*        System.out.print("행 (N) : ");
         int N = sc.nextInt();
         System.out.print("열 (M) : ");
         int M = sc.nextInt();
@@ -348,7 +348,73 @@ public class ArraySolve {
                 sum += arry[i][j];
             }
             System.out.println((j + 1) + "열 합계: " + sum);
+        }*/
+
+//        #18번 문제 - OX퀴즈 채점
+
+
+
+//        #19번 문제 - 숫자 빈도수 분석
+/*
+        System.out.print("N 입력: ");
+        int N = sc.nextInt();
+        int[] counts = new int[10]; // 0~9까지 배열에 저장할 index
+
+        */
+/*for (int i = 0; i < N; i++) {
+            System.out.print((i + 1) + "번쨰 정수 (0~9) : ");
+            counts[i] = sc.nextInt();
+        }*//*
+
+
+        for (int i = 0; i < N; i++) {
+            System.out.print((i + 1) + "번째 정수 (0~9) : ");
+            int num = sc.nextInt();
+//            counts[i] = num;
+            counts[num] = counts[num] + 1;
         }
+
+        int max = 0;
+        for (int i = 0; i < 10; i++) {
+
+            if (counts[i] != 0) {
+                System.out.println(i + " : " + counts[i] + "번");
+                if (counts[i] > max) {
+                    max = counts[i];
+                }
+            }
+        }
+        System.out.print("최빈값: ");
+        for (int i = 0; i<10; i++) {
+            if (counts[i] == max) {
+                System.out.println(i + " ");
+            }
+        }
+        System.out.println();
+*/
+
+
+
+//        #20번 - 2차원 배열 대각선 합계
+        System.out.println("N 입력 : ");
+        int N = sc.nextInt();
+        int[][] arryN = new int[3][3];
+        for (int i = 0; i < arryN.length; i++) {
+            for (int j = 0; j < arryN.length; j++) {
+                System.out.print((i + 1) + "행 "  + (j + 1) + "열 :");
+                arryN[i][j] = sc.nextInt();
+            }
+        }
+
+        int low = 0;
+        int hight = 0;
+
+        for (int i = 0; i < arryN.length; i++) {
+            for (int j = 0; j < arryN.length; j++) {
+
+            }
+        }
+
 
     }
 }

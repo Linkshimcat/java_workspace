@@ -258,6 +258,19 @@ public class ArrayDemo {
 //        #
 
 
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int[] arry = new int[N];
+
+        for (int i = 0; i < arry.length; i++) {
+            System.out.print("N 배열 입력 :");
+            arry[i] = sc.nextInt();
+        }
+
+        for (int i = 0; i < arry.length; i++) {
+            System.out.println("arry["+i+"]" + " = " + arry[i]);
+
+        }
 
 
     }

@@ -42,5 +42,21 @@ public class _01_String {
 //        equals: 대문자, 소문자 무조건 정확히 똑같아야 함.
 //        equalsIgnoreCase: 대소문자 구분없이 같으면 true
 
+
+
+//        # equals()와 ==의 차이 알기.
+        String x2 = "1234";
+        String x3 = "1234";
+        System.out.println(x2 == x3); // 두 변수가 같은 상자를 가리키므로 true
+        System.out.println(x2.equals(x3)); // equals의 문자열 내용이 같으므로 true
+//        근데 만약에 new String()을 사용한다면?
+//        new String()은 새로운 객체를 생성함. (무조건 문자열을 새로 만들어 달라는 소리)
+        String q1 = new String("1234");
+        String q2 = new String("1234");
+        System.out.println(q1.equals(q2));
+        System.out.println(q1 == q2); // false로 뜨는 이유는, == 연산자는 변수가 가리키는 (참조한다) 상자 (메모리) 자체를
+//        비교하기에 이런 현상이 발생함.
+//        그래서 결론적으론 문자열을 비교하고 싶다면 쉽게 equals()를 사용하자.
+
     }
 }
