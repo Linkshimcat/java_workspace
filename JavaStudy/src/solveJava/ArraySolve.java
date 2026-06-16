@@ -353,7 +353,6 @@ public class ArraySolve {
 //        #18번 문제 - OX퀴즈 채점
 
 
-
 //        #19번 문제 - 숫자 빈도수 분석
 /*
         System.out.print("N 입력: ");
@@ -394,11 +393,10 @@ public class ArraySolve {
 */
 
 
-
 //        #20번 - 2차원 배열 대각선 합계
-        System.out.println("N 입력 : ");
+/*        System.out.print("N 입력 : ");
         int N = sc.nextInt();
-        int[][] arryN = new int[3][3];
+        int[][] arryN = new int[N][N];
         for (int i = 0; i < arryN.length; i++) {
             for (int j = 0; j < arryN.length; j++) {
                 System.out.print((i + 1) + "행 "  + (j + 1) + "열 :");
@@ -406,14 +404,105 @@ public class ArraySolve {
             }
         }
 
-        int low = 0;
-        int hight = 0;
+        // 주 대각선 요소의 합
+        int sum1 = 0;
+        // 반 대각선 요소의 합
+        int sum2 = 0;
 
         for (int i = 0; i < arryN.length; i++) {
             for (int j = 0; j < arryN.length; j++) {
-
+                if(i == j) {
+                    // 주 대각선이니깐
+                    sum1 += arryN[i][j];
+                }
+                if ((i + j) == (N - 1)) {
+                    // 반대각선이니깐
+                    sum2 += arryN[i][j];
+                }
             }
         }
+
+//        결과
+        System.out.println("주 대각선 합: " + sum1);
+        System.out.println("반 대각선 합: " + sum2);*/
+
+
+//        #21번 문제 - 전치 행렬
+/*        System.out.print("N 입력 : ");
+        int N = sc.nextInt();
+        int[][] arryN = new int[N][N];
+        for (int i = 0; i < arryN.length; i++) {
+            for (int j = 0; j < arryN.length; j++) {
+                System.out.print((i + 1) + "행 " + (j + 1) + "열 :");
+                arryN[i][j] = sc.nextInt();
+            }
+        }
+
+        for (int i = 0; i < N; i++) {
+            for (int j = i + 1; j < N; j++) {
+                int temp = arryN[i][j];
+                arryN[i][j] = arryN[j][i];
+                arryN[j][i] = temp;
+            }
+        }
+
+        System.out.println("전치 행렬: ");
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++) {
+                System.out.print(arryN[i][j] + " ");
+            }
+            System.out.println();
+        }*/
+
+
+
+        //  #22번 문제 - 버블 정렬
+    /*  System.out.print("N입력: ");
+        int N = sc.nextInt();
+        int[] arry = new int[N];
+
+        int sum = 0;
+        for (int i = 0; i < N; i++) {
+            System.out.print((i + 1) + "번째 정수 : ");
+            arry[i] = sc.nextInt();
+        }
+
+        int N = 5;
+        int[] arry = {5, 4, 1, 3, 2};
+        System.out.println("정렬 전: " + Arrays.toString(arry));
+        for (int i=N-2; i>=0; i--) {
+            System.out.println(i);
+            for (int j = 0; j<=i; j++) {
+                if (arry[i] > arry[j + 1]) {
+                    int temp = arry[j + 1];
+                    arry[j + 1] = arry[j];
+                    arry[j] = temp;
+                }
+            }
+        }
+        System.out.println("정렬 후: " + Arrays.toString(arry));*/
+
+
+
+//        #23번 - 선택 정렬
+        int N = 4;
+        int[] arrun = {5, 4, 1, 3};
+
+        int idx = 0;
+        int least = arrun[0];
+        for (int i = 0; i<N; i++) {
+//            System.out.println("\ni:" + i + "\nj:");
+            for (int j = i; j < N; j++) {
+                if (arrun[j] < least) {
+                    least = arrun[j];
+                    idx = j;
+                }
+            }
+            int temp = arrun[i];
+            arrun[i] = least;
+            arrun[idx] = temp;
+        }
+        System.out.println("정렬 후: " + Arrays.toString(arrun));
 
 
     }
