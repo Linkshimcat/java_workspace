@@ -1,11 +1,11 @@
 package _6월수행패키지;
 import java.util.concurrent.ThreadLocalRandom;
+//import java.util.Random;
 import java.util.Scanner;
 
 public class RandomCube {
     public static void main(String[] args) {
         int dice = ThreadLocalRandom.current().nextInt(1, 7); // 1 ~ 6
-        double ranDouble = ThreadLocalRandom.current().nextDouble();
         Scanner sc = new Scanner(System.in);
         int count = 0;
 
@@ -24,9 +24,6 @@ public class RandomCube {
                 break;
             }
 
-//            else {
-//                System.out.println("잘못된 결과입니다.");
-//            }
         }
 
     }

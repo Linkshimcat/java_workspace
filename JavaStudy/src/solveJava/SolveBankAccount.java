@@ -1,3 +1,5 @@
+package solveJava;
+
 class MyBankAccount {
     int balance;
 
@@ -21,6 +23,6 @@ public class SolveBankAccount {
         bank.setBalance(10000);
         System.out.println("잔액: " + (bank.getBalance()));
         bank.setBalance(-1000);
-        System.out.println("잔액: " + (bank.getBalance()));
+//        System.out.println("잔액: " + (bank.getBalance()));
     }
 }

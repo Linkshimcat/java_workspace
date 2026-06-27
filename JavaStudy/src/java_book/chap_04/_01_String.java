@@ -1,4 +1,4 @@
-package chap_04;
+package java_book.chap_04;
 
 public class _01_String {
     public static void main(String[] args) {

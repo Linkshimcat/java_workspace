@@ -1,3 +1,5 @@
+package Grammer;
+
 class BankAccount {
     String owner; //owner 필드
     int balance; //balance 필드
@@ -81,7 +83,7 @@ class Car2 {
 public class ClassStudy {
     public static void main(String[] args) {
 
-//        BankAccount account = new BankAccount(); //BankAccount의 인스턴스
+//        Grammer.BankAccount account = new Grammer.BankAccount(); //BankAccount의 인스턴스
 //        account.owner = "김미림";
 //        account.withdraw(1000);
 //        account.deposit(10000);
@@ -89,11 +91,11 @@ public class ClassStudy {
 //        boolean b1 = account.withdraw(6000); //true 1만원 -> 6000원 빼면 4000원 남음.
 //        boolean b2 = account.withdraw(5000); //false 아까 4000원 남았는데 5000원을 뺄수 없기에 flase.
 
-//        SolveBankAccount acc1 = new SolveBankAccount();
+//        solveJava.SolveBankAccount acc1 = new solveJava.SolveBankAccount();
 //        acc1.owner = "홍길동";
 //        acc1.balance = 10000;
 //
-//        SolveBankAccount acc2 = new SolveBankAccount();
+//        solveJava.SolveBankAccount acc2 = new solveJava.SolveBankAccount();
 //        acc2.owner = "김철수";
 //        acc2.balance = 50000;
 //
@@ -101,7 +103,7 @@ public class ClassStudy {
 //        System.out.println(acc2.getSummary());
 
 
-//        Car car1 = new Car(); //new 키워드 사용하여 객체 생성 (여기서부터 행동)
+//        Grammer.Car car1 = new Grammer.Car(); //new 키워드 사용하여 객체 생성 (여기서부터 행동)
 //        System.out.println(car1.brand); null출력
 //        System.out.println(car1.model); null 출력
 //        System.out.println(car1.year); 0출력

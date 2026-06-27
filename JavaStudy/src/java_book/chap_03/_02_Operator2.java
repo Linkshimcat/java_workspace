@@ -1,4 +1,4 @@
-package chap_03;
+package java_book.chap_03;
 
 public class _02_Operator2 {
     public static void main(String[] args) {

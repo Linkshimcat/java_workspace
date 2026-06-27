@@ -1,4 +1,4 @@
-package chap_03;
+package java_book.chap_03;
 
 public class Width {
     public static void main(String[] args) {
