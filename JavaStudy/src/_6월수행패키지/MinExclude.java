@@ -20,7 +20,7 @@ class Member {
     }
 
      String getInfo() {
-        return String.format("이름 %s | 나이: %d | 포인트: %d", name, age, point);
+        return String.format("이름 %s | 나이: %d | 포인트: %d", name, age, point); //%s는 String, %d는 정수
     }
 
 }
