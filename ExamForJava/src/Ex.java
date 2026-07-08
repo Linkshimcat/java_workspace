@@ -4,8 +4,6 @@ public class Ex {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
 
-
-
 //        String star = "*";
 //
 //        for(int i = 1; i<=3; i++) {
