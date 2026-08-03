@@ -1,4 +1,4 @@
-package proj1211;// 1211 이윤재
+package proj1211.A;// 1211 이윤재
 
 import java.util.Random;
 import java.util.Scanner;

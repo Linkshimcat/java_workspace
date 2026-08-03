@@ -1,4 +1,4 @@
-package proj1211;
+package proj1211.A;
 
 import java.util.Scanner;
 public class Seat_1211 {

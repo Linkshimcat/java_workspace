@@ -1,5 +1,5 @@
 //1211 이윤재
-package proj1211;
+package proj1211.A;
 import java.util.Scanner;
 
 class Movie {
